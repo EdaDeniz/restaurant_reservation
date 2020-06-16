@@ -1,4 +1,4 @@
-# restaurant reservation
+# Restaurant Reservation System
 Restaurant reservation system
 
 -> Homepage

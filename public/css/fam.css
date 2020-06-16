@@ -1,0 +1,121 @@
+/* Home section */
+
+.navbar {
+
+    border: none;
+    top: 120px;
+}
+
+
+.navbar-default {
+    background-color: transparent !important;
+
+}
+
+#index-page {
+    margin-top: -15px;
+cursor: url(http://www.rw-designer.com/cursor-extern.php?id=97062);
+}
+
+.container-fluid {
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.navbar-toggle {
+    border: none;
+}
+
+#login-button {
+    text-decoration: none;
+    border: 2px solid;
+    transition: 0.3s ease all;
+    font-weight: 400;
+    font-size: 15px;
+    border-radius: 5px;
+    padding: 8px 20px !important;
+    margin-top: 0px;
+    color: #FF0053 !important;
+    border-radius: 2px;
+    margin-left: 10px;
+}
+
+#login-button:hover {
+    color: white !important;
+}
+
+.home-section a {
+    padding: 10px 15px !important;
+    color: #ff0053 !important;
+}
+
+.home-section {
+    background-image: url(../images/index-background.jpg);
+    background-position: bottom;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.home-section .nav > li > a {
+    color: white !important;
+    padding-right: 20px;
+    padding-left: 20px;
+    transition: 0.3s ease all !important;
+    text-transform: uppercase;
+    letter-spacing: 0.4px;
+}
+
+.home-section .nav > li > a:hover {
+    color: #ff0053 !important;
+}
+
+
+.card-holder {
+  display: flex;
+  width: 100%;
+  height: 200px;
+  position: absolute;
+  top: 50%;
+  left: 45%;
+  transform: translate(-50%, -50%);
+  justify-content: center;
+}
+
+.card img, .card iframe  {
+  width: 100%;
+  border-radius: inherit;
+}
+
+.card.large {
+  width: 250px;
+  height: 250px;
+  z-index: 1000;
+  transform: perspective(600px) rotateY(0deg) translateZ(50px);
+  box-shadow: 0px 0px 15px rgba(0,0,0,1);
+  margin-right: -15px;
+}
+
+.card {
+  width: 200px;
+  height: 200px;
+  display: inline-flex;
+  background: #333;
+  border-radius: 30px;
+  transition: all .4s ease;
+  margin-right: -150px;
+  box-shadow: 0 18px 31px -8px rgba(0,0,0,.5);
+  transform: perspective(600px) rotateY(45deg);
+}
+
+
+.card:hover {
+  transform: perspective(600px) rotateY(0deg) translateZ(50px);
+  box-shadow: 0px 0px 15px rgba(0,0,0,1);
+}
+
+.card:not(.last):hover {
+  margin-right: -15px;
+}
+
+
+
